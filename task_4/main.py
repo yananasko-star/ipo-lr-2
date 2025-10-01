@@ -1,0 +1,6 @@
+x=int(input("введите число"))
+y=int(input("введите число"))
+e=int(input("введите число"))
+z=int(input("введите число"))
+h=(((x**(y+1))+(e**(y-1)))/(1+(x*abs(y-math.tan(z)))))*(1+(abs(y-x)))+((abs(y-x)**2)/2)-((abs(y-x)**3)/3)
+print(h)
